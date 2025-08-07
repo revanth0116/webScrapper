@@ -22,7 +22,6 @@ This Python script scrapes the latest news headlines from the [BBC News](https:/
 
 Install the dependencies with:
 
-```bash
 pip install requests 
 pip install beautifulSoup4
 
@@ -37,5 +36,8 @@ pip install beautifulSoup4
     text = tag.get_text(strip=True)
     if text and len(text) > 10: # filters the short/empty lines
 
-        headlines_texts.append(text)
-<img width="1260" height="969" alt="Screenshot 2025-08-07 181412" src="https://github.com/user-attachments/assets/ad408956-18db-4557-b6c5-e886b93d307d" />
+
+
+<img width="1260" height="969" alt="Screenshot 2025-08-07 181412" src="https://github.com/user-attachments/assets/c6fa4b28-e016-47b0-ba22-c013d0995309" />
+
+
